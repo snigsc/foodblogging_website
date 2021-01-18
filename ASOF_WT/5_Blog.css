@@ -1,0 +1,32 @@
+.blogtitle{
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 28px;
+}
+
+.by{
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+}
+
+#readbutton{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: darkslategray;
+    background-color: antiquewhite;
+    position: absolute; 
+    bottom: 0;
+    padding: 4px 20px;
+    font-size: 15px;
+    border: none;
+}
+
+#readbutton:hover{
+    color: antiquewhite;
+    background-color: maroon;
+}
+
+#myModal{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: darkslategray;
+}

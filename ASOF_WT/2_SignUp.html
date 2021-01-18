@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up - A State Of Flavours</title>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="2_SignUp.css">
+</head>
+<body>
+<div id="login-box">
+    <form action="3_ChooseCuisine.html" id="sign-up_form" >
+	<div class="left-box">
+        
+		<h1 class = "firstheading">SIGN UP</h1>
+		<input type="text" name="username" placeholder="Username">
+		<input type="text" name="email" placeholder="Email" >
+		<input type="password" name="password" placeholder="Password" >
+		<input type="password" name="password2" placeholder="Confirm Password" >
+       <!-- <button type="submit" value="Submit" name="signup-button">Sign Up</button>-->
+        <input type="submit" name="signup-button" value="Sign-Up" />
+        </form>
+        <script src="firebase1.js"></script>
+
+</div>
+<div class="right-box">
+    <h1 class = "secondheading"><br /><br /></h1>
+	<button class="social facebook" onclick="window.open('http://facebook.com')">Sign in with Facebook</button>
+	<button class="social twitter" onclick="window.open('http://twitter.com')">Sign in with Twitter</button>
+	<button class="social google" onclick="window.open('http://gmail.com')" >Sign in with Gmail</button>
+
+
+</div>
+<div class="or">OR</div>
+
+</body>
+</html>

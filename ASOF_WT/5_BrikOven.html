@@ -1,0 +1,436 @@
+<html>
+
+    <head>
+        
+        <title>Brik Oven</title>
+        
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <!--Menu Bar-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="NavBar.css">
+        
+        <!--StyleSheet-->
+        <link rel="stylesheet" type="text/css" href="5_ItalianRestaurants.css">
+        
+        <!--Top Button-->        
+        <link rel="stylesheet" type="text/css" href="TopButton.css">
+        
+        <!--Checkbox-->
+        <link rel="stylesheet" type="text/css" href="5_checkbox.css">
+        
+        <!--Blog Modal-->
+        <link rel="stylesheet" type="text/css" href="5_Blog.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       
+    </head>
+
+    <body>
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <div class="navbar">
+            
+            <a href="3_ChooseCuisine.html"><i class="fa fa-home" style="font-size:24px"></i>&nbsp;Home</a>
+            <a href="#"><i class="fa fa-plus" style="font-size:24px"></i>&nbsp;Upload</a>
+            
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-cutlery" style="font-size:20px"></i>&nbsp;Cuisines&nbsp;</button>
+                <div class="dropdown-content">
+                    <a href="4_Indian.html">Indian</a>
+                    <a href="4_Italian.html">Italian</a>
+                    <a href="4_PanAsian.html">Pan-Asian</a>
+                    <a href="4_FastFood.html">Fast Food</a>
+                    <a href="4_Desserts.html">Desserts</a>
+                    <a href="4_Continental.html">Continental</a>                    
+                </div>
+            </div>
+            
+            <div class="dropdown" style="float: right">
+                <button class="dropbtn" style="font-size: 28;padding: 10 15"><i class="fa fa-user-circle-o"></i></button>
+                <div class="dropdown-content2">
+                    <a href="#">Cart</a>
+                    <a href="ChangePass.html">Change password</a>
+                    <a href="1_Home.html">Log Out</a>
+                </div>
+            </div>
+                    
+        
+        </div>
+
+        
+        <div class="rest_name"></div>
+        <div style="padding-left: 10px;"> 
+            <div class="text">
+            <h1 style="font-size: 50; color:white;">Brik Oven</h1>  
+            <div class="details">
+                <a href="https://g.page/brikovenblr?share" target="_blank"><i class='fa fa-map-marker' style='color:red;font-size:30;float:left;'></i></a>
+                <p style="font-size:18;">&nbsp;18, Church St, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001</p>
+                <i class='fa fa-phone' style='font-size:25;float:left;color:forestgreen'></i>
+                <p style="font-size:18;">&nbsp; 080 2559 6961</p>
+            </div>
+            </div> 
+           
+        </div>
+        <br/><br/>
+          
+                
+            <div class = "row">
+                
+
+               <!-- <div class = "col-sm-5" style="overflow: auto">-->
+
+                    <button class="name">MENU</button>
+
+                    
+
+                    <form action="#" method="post" class="menu">
+                        <table>
+                            <tr>
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXzAFq4zvhG0QuoBWfTNciMBQRtuLP3aJ05YA3S-v4ROvx6ocU" style="height:200px;width:200px;float:left;"><br/><br/>
+                              <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Cheesy Garlic Breadsticks</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.180</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                            <br/>
+                            </td>
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtPQPtaT9VsNYajSy_2IdAVo5TN3Egr50n-78ilNn2YF4i9WQE" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Tomato-topped Bruschetta</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.190</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJk2h5QgRA9N9k1E-7Zep9hAkeVV_YHkJQxifwZSXaey_LmQaz" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:red;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;<br>Proscuitto Bruschetta</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.250</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td></tr>
+                        <tr>
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZJniYyYQ3hM0fJoLJ6Uop7XKcydGB9JqZVZZVj4z56dndp_xT" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Pepperoni Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.350</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>    
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXLpHIkLVC1qdvOshDTpfxeumw_bvpYuFLEl4MmADy2t_Va-Rl" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Farmhouse Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.300</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                             <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFFRP_7oyPr3x-FPUnv3QdHIjeY4awK4CANWu9REl4gZ7u0jO1" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:red;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Chicago Deep-Dish Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.450</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                                
+                        </tr>
+                        <tr>
+                            <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSv70lptsB6mfoC-6Dmug_UKu7i7a9FTJp_AMfh4elHCLNdCpdU" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Hawaiian Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.375</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                            
+                              <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2sss0CUtsnbZ-gSdVb3pVhMuNGiJ8fYt9yuiF6yr9zmRfMz5C" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:red;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Meat Blast Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.415</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                         <td style="padding-top:20px;padding-left:50px;padding-right: :80px;">
+                        
+                        <img class="item-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwk75aj_K--YSllDPBTS8feBV_S99V1LIoJ2DicclLcvq6xhKB" style="height:200px;width:200px;float:left;"><br/><br/>
+                                <span style="color:green;font-size: 30px;float: left;margin-top: -9px;">&#8865;</span><p style="color: white">&nbsp;&nbsp;Classic Margherita Pan Pizza</p>
+                                 <span class="shop-item-price">&nbsp;&nbsp;&nbsp;Rs.280</span>
+                                    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary shop-item-button" type="button">ADD </button>
+                        <br/>
+                             
+                                </td>
+                         
+                        </tr>
+                        
+                        <!--<label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tawa Aloo Chat"/>Tawa Aloo Chaat
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Veg Cocktail Samosa"/>Veg Cocktail Samosa
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Paneer Tikka"/>Paneer Tikka
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Veg Platter"/>Veg Platter
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Lobster"/>Tandoori Lobster
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Pomfret"/>Tandoori Pomfret
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Pomfret"/>Tandoori Pomfret
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Pomfret"/>Tandoori Pomfret
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Pomfret"/>Tandoori Pomfret
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Pomfret"/>Tandoori Pomfret
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Chicken Tikka"/>Chicken Tikka
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoor-Ki-Shaan"/>Tandoor-Ki-Shaan
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Aloo Gobi"/>Aloo Gobi
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Tandoori Roti"/>Tandoori Roti
+                        <span class="checkmark"></span>
+                        </label>
+
+                        <br/>
+                        <label class="container1">
+                        <input type="checkbox" name="tandoor" value="Buttern Naan"/>Butter Naan
+                        <span class="checkmark"></span>
+                        </label>-->
+                        
+
+                        </table>
+                    </form>
+                </div>
+
+                    
+                    
+                
+               <section>
+                 <nav>
+                  
+                                <p class="recblog" align="center" style="font-family:Lucida Sans Unicode;font-size: 20px;margin-top: -15px;">RECOMMENDED BLOGS</p>
+                     
+
+
+
+  
+  
+
+ 
+    
+                    
+                    <br/><br/>
+                    
+                    
+                    <div class="row">
+                        
+                        <div class="col-sm-5" style="overflow: hidden">
+                            <div class="blogimg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4rK9I4pBvWmC172SIZKu1jy_ro3zPzZ8zUt6dze6J5GB5EUVh" height="150"/></div>
+                        </div>
+                        
+                        <p class="blogtitle">&nbsp;Title1</p>
+                        <p class="by">&nbsp;/author's name/</p>
+                        <br />
+                        <br />
+                        
+                        &nbsp;&nbsp;<button style="margin-bottom: 60px;" type="button" id="readbutton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" >Read</button>
+                    </div>
+                    
+                         
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h2 class="modal-title">Title1</h2>
+                                        <h4>By _____</h4>
+                                    </div>
+                                    <div class="modal-body">
+                          
+                                    
+                                
+                                        <p>Text goes here..</p>
+                                    </div>
+                                
+                                    <div class="modal-footer">  
+                                        <button type="button" class="btn btn-default">Like!&nbsp;<i class="fa fa-heart" style="font-size:18px;color:red;opacity:0.65;"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     <br/><br/>
+                       
+                                        <div class="row">
+                        
+                        <div class="col-sm-5" style="overflow: hidden">
+                            <div class="blogimg"><img src="https://st.depositphotos.com/3409541/4953/i/950/depositphotos_49539389-stock-photo-pizza-cut-into-slices.jpg" height="150" /></div>
+                        </div>
+                        
+                        <p class="blogtitle">&nbsp;Title2</p>
+                        <p class="by">&nbsp;/author's name/</p>
+                        <br />
+                        &nbsp;&nbsp;<button style="margin-bottom: -120px" type="button" id="readbutton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" >Read</button>
+                        
+                        
+                    </div>
+                     
+                    
+                         
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h2 class="modal-title">Title2</h2>
+                                        <h4>By _____</h4>
+                                    </div>
+                                    <div class="modal-body">
+                          
+                                    
+                                
+                                        <p>Text goes here..</p>
+                                    </div>
+                                
+                                    <div class="modal-footer">  
+                                        <button type="button" class="btn btn-default">Like!&nbsp;<i class="fa fa-heart" style="font-size:18px;color:red;opacity:0.65;"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </nav>   
+                    
+                    
+                </section>
+                <!--<div class="RightContent">
+
+                <div class="col-sm-7" style=": auto">
+                    
+                    <button class="name">BLOGS</button>
+                    
+                    <br/><br/>
+                    
+                    <!--Blog1 starts here
+                    <div class="row">
+                        
+                        <div class="col-sm-5" style="overflow: auto">
+                            <div class="blogimg"><img src="tandoor1.png" height="150"/></div>
+                        </div>
+                        
+                        <p class="blogtitle">Title1</p>
+                        <p class="by">/author's name/</p>
+                        
+                        <button type="button" id="readbutton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read</button>
+                    </div>
+                    
+                        <!-- Modal 
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h2 class="modal-title">Title1</h2>
+                                        <h4>By _____</h4>
+                                    </div>
+                                    <div class="modal-body">
+                          
+                                        <!--Images
+                                
+                                        <p>Text goes here..</p>
+                                    </div>
+                                
+                                    <div class="modal-footer">  
+                                        <button type="button" class="btn btn-default">Like!&nbsp;<i class="fa fa-heart" style="font-size:18px;color:red;opacity:0.65;"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <!--Blog1 ends here
+                
+                </div>-->
+            
+<script type="text/javascript" src="TopButton.js"></script>
+    </body>
+
+</html>

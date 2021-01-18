@@ -1,0 +1,44 @@
+body{ 
+    background: url(https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+.firstletters{
+    font-size: 100px;
+    text-shadow: 2px 2px #FFEFD5;
+}
+
+
+h1{
+    font-family:"Lucida Sans Unicode", sans-serif;
+    color:burlywood;
+    text-shadow: 1px 1px #FFEFD5;
+    font-size: 45px;
+}
+
+#left{
+    left: 40px;
+    right: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: antiquewhite;
+    font-size: 20px; 
+    margin-top: 7% ;
+}
+
+.bg{
+    
+    position: relative;
+	width:350px;
+	margin-top:20% ;
+	height: 270px;
+	background: rgba(250, 235, 215, 0.85);
+    border-radius: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+

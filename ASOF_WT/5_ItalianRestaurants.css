@@ -1,0 +1,105 @@
+.recblog{
+    background-color:antiquewhite;
+
+opacity: 1;
+width:350px;
+height: 35px;
+cursor: default;
+color: maroon;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 20px;
+border: 0;
+border-radius: 5px;
+padding: 4px 20px;
+text-decoration: bold;
+
+}
+.text {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: maroon;
+font-weight: bold;
+float:left;
+position: absolute;
+top: 50%;
+margin-top: -70px;
+transform: translate(5%, -50%);
+z-index: 2;
+width: 80%;
+
+text-align:left;
+}
+.rest_name {
+/* The image used */
+background-image: url("https://www.englishclub.com/images/vocabulary/food/italian/italian-food-640.jpg");
+
+/* Add the blur effect */
+filter: blur(8px);
+-webkit-filter: blur(4px);
+
+/* Full height */
+height: 50%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.addtocart{
+color: antiquewhite;
+background-color: maroon;
+padding: 5px 15px;
+margin: 8px 0;
+border: none;
+font-size: 17px;
+border-radius: 4px;
+position: absolute;
+left: 15px;
+bottom: 0px;
+}
+
+.addtocart:hover{
+color: darkslategray;
+background-color: antiquewhite;
+}
+
+.name{
+background-color:antiquewhite;
+margin-left: 350px;
+opacity: 1;
+width:inherit;
+cursor: default;
+color: maroon;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 30px;
+border: 0;
+border-radius: 5px;
+padding: 0px 20px;
+}
+
+.menu, .details{
+color: white;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+@media screen and (max-width: 800px) {    
+.row{
+height: 275px;
+padding-left: 5px;
+}
+}
+
+body{ 
+padding-top: 50px;
+background: url(https://lh3.googleusercontent.com/u0z_BqCNPSB_GU_R3g_fDTezufwzp_wjdSbE04-ONdnhHypxl0bCL99nygUViZoIkVTEMLI-VjoisR0zZyJphsRkNiNKVDmx4ZV0pX5cCGoWzQ_uY1WWYClQXqw_Rm6yxUK21kjgnJmSt27zX_NbT4VHIvD8OsypIPNfM9ImGd18Xf-CAhNFjEdh1BLjirQ2c3cKc-0OrMRuP4kpJ_r8HGnJ_4cfK8ypMPDmJUZ-KQgAacYJvG9xy8STIsuM0qEkU62XRVtTexalGK9N8ztvVu0yaUrXIQNVTZs5w5yp2gGzbV-1mPGtpvyopxb2YeFDt1KRW11FZagaljEZNgn6kvcaGLctJYlmGcy_JErCyiyRmVOAZdRY1XiQ83zn_TcmKWeZeTQLe1G58W3pHSyDIQ3DPr73L9bzEIu6_gWp8A39tpdvtg26O8UspmMwf7pR99RO27Vr60GOE3mvNbMF8wUXbxlJgME-r6OCIlbhGAx96oiJHza3Ybl9TxBpSvxO3aRss-Cdc9mSrdajogoPiYs9QVern8PIdCvnVgpL7GYtiPvQgM8ccQvWBV29GLgUogr5ZVIq4Gbm6uKeg0bTeW4PsCMQaa2IDLVpHIBY-UB1SdWUE1q4YP0BQvf2heFkGH1Vvhwl0lAqjuDAJ7UpPiGstelJklKsGiuhHPl1W1LsMYniGe9khc4e=w888-h592-no) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+img{
+border-radius: 10px;
+}
+
